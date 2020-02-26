@@ -3,7 +3,6 @@ body
   background-color: #ffe6e0;
 }
 
-
 @keyframes logo_start
 {
   0%    {opacity: 0.0; transform: translate(750px, 20px) scale(1.4);}
@@ -28,21 +27,21 @@ body
 .logoStart
 {
   animation-name: logo_start;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
 .buttonStart
 {
   animation-name: button_start;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
 .textStart
 {
   animation-name: text_start;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -68,17 +67,23 @@ button:hover
   border-color: #999999;
 }
 
-.background
+h2
 {
   color: white;
   font-family: Arial;
   text-align: center;
-  background-color: #666699;
-  border: 10px solid #666699;
   font-size: 40px;
 }
 
-a
+.box {
+   display: flex;
+   align-items:center;
+}
+
+div.background
 {
-  text-decoration:none;
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid #564C65;
 }
